@@ -9,7 +9,9 @@ const MasterPage = (props) =>(
       <link rel="stylesheet" href="https://bootswatch.com/4/yeti/bootstrap.min.css" />
     </Head>
     <Navigation/>
-    {props.children}
+    <div className="container mt-4">
+      {props.children}
+    </div>
   </div>
 )
 
